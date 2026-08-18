@@ -23,9 +23,7 @@ class LinkedList {
         }
         current.next = newNode;
     }
-     
-   
 
-        document.getElementById("output").textContent = output;
-    }
+    
 }
+

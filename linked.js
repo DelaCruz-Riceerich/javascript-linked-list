@@ -24,6 +24,14 @@ class LinkedList {
         current.next = newNode;
     }
 
-    
-}
+    display() {
+        let current = this.head;
+        let output = "";
+        while (current !== null) {
+            output += current.data + " ";
+            current = current.next;
+        }
 
+        document.getElementById("output").textContent = output;
+    }
+}
